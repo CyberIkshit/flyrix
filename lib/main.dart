@@ -8,8 +8,12 @@ void main() {
   runApp(new MaterialApp(
     title: "Flyrix",
     debugShowCheckedModeBanner: false,
-    home: BlocProvider(
-      create:(context)=>TracksListBloc(repository: TracksListImpl()),
+    home: MultiBlocProvider(
+      providers: [
+        BlocProvider(
+          create: (context) => TracksListBloc(repository: TracksListImpl()),
+        ),
+      ],
       child: HomePage(),
     ),
   ));
