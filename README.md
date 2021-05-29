@@ -1,16 +1,36 @@
+![image](https://user-images.githubusercontent.com/57153473/120053306-1146dd80-c047-11eb-94d2-2800aa541adb.png)
 # flyrix
 
-A music App using Flutter that can provide lyrics of tracks using third party api services
+A music App using Flutter that can provide lyrics of tracks using third party API services.
 
-## Getting Started
+## Build Setup And Login Instructions
 
-This project is a starting point for a Flutter application.
+```bash
+# install project
+$ git clone https://github.com/CyberIkshit/flyrix.git
 
-A few resources to get you started if this is your first Flutter project:
+# open app directory
+$ cd flyrix
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# install dependencies
+$ pub get
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# build/run
+
+```
+## Snapshots
+
+Home Screen-:
+>![image](https://user-images.githubusercontent.com/57153473/120052639-d7280c80-c043-11eb-9d2f-7c1840ff5903.png)
+
+Loading Page-:
+> ![image](https://user-images.githubusercontent.com/57153473/120052675-0d658c00-c044-11eb-955c-f516d325e8d2.png)
+
+Track Details-:
+> ![image](https://user-images.githubusercontent.com/57153473/120052665-00e13380-c044-11eb-96a7-861c6aa46b3c.png)
+
+When Offline-:
+> ![image](https://user-images.githubusercontent.com/57153473/120052695-23734c80-c044-11eb-9a83-9f2eb9fb50df.png)
+
+
+Still under development!!
